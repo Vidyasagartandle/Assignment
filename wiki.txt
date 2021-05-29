@@ -1,0 +1,13 @@
+.img_wrp {
+background-repeat: no-repeat;
+}
+#closeLogo {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 180px;
+    margin-left: -5px;
+}
+#adLogo {
+    height: 40%;
+    width: 15%;
+}

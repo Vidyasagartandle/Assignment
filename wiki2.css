@@ -1,0 +1,62 @@
+.img_wrp {
+	 position:fixed;
+background-repeat: no-repeat;
+}
+#closeLogo {
+          height: 15px;
+    width: 15px;
+    margin-bottom: 180px;
+    margin-left: 200px;
+    display: block;
+    margin-top: -11px;
+}
+#adLogo {
+    height: 40%;
+    width: 15%;
+}
+#carousel {
+    /* position: absolute; */
+    top: 50px;
+    left: 200px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    opacity: 1;
+}
+
+#API {
+margin-top: 64px;	
+}
+.card {
+    position: absolute;
+    width: 196px;
+    height: 98px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 1s;
+    background: black;
+    -webkit-transform: translateY(-55%) translateZ(-50px) scale(0.8);
+    transform: translateY(-55%) translateZ(-50px) scale(0.8);
+}
+
+.card.middle span , .card.top span, .card.bottom span{
+	padding: 20px;
+}
+
+
+.card.middle {
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+    background: #add8e6;
+}
+
+.card.top {
+    -webkit-transform: translateY(-55%) translateZ(-50px) scale(0.8);
+    transform: translateY(-55%) translateZ(-50px) scale(0.8);
+    background: #ff7f50;
+}
+
+.card.bottom {
+    -webkit-transform: translateY(55%) translateZ(-50px) scale(0.8);
+    transform: translateY(55%) translateZ(-50px) scale(0.8);
+    background: #7fff00;
+}
